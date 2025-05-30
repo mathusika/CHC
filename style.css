@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(250, 235, 215);
+    color: rgba(25, 6, 114, 0.568);
+    line-height: 1.6;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 20px;
+    background-color: rgb(221, 215, 233);
+
+}
+
+header{
+    background-color: rgb(11, 22, 226);
+    color: rgb(50, 10, 171);
+    padding: 20px;
+    align-items: center;
+    font-size: 46px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    margin: 0;
+    gap: 15px;
+    justify-content: center;
+
+}
+
+header h1{
+    margin: 10px;
+    font-size: 1.5em;
+    text-align: center;
+    justify-content: center;
+}
+nav{
+    background-color: rgb(208, 209, 199);
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+    
+}
+
+nav ul li a{
+    color: rgb(15, 156, 207);
+    text-decoration: none;
+    font-size: bold;
+
+}
+
+section{
+    background-color: rgb(210, 207, 25);
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    color: rgb(29, 38, 164);
+}
+
+h2{
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+
+ul{
+    list-style: disc;
+    padding-left: 20px;
+}
+
+a{
+    color: rgb(14, 2, 11);
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    background-color: rgb(22, 11, 228);
+    color: rgb(22, 46, 184);
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+.login-container h2 {
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+.input-field {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 5px;
+            border-radius: 5px;
+            border: 1px solid #3e04df;
+        }
+.login-btn {
+            background-color: #4cafaf;
+            color: rgb(16, 142, 192);
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+        }
+.login-btn:hover {
+            background-color: #156e50;
+        }
+
+.school name h1{
+    color: rgb(14, 184, 11);
+    font-size: 36px;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.school name{
+    flex: 1;
+}
+
+.logo img{
+    height: 200px; ;
+    width: auto;
+    margin-right: 16px;
+}
